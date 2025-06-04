@@ -6,72 +6,6 @@ This repo is ideal for learning, testing, and showcasing Ingress routing in Kube
 
 ---
 
-## 📁 Project Structure
-.
-├── blog-client
-│   ├── Dockerfile
-│   ├── eslint.config.js
-│   ├── index.html
-│   ├── package-lock.json
-│   ├── package.json
-│   ├── public
-│   │   ├── flower.svg
-│   │   └── vite.svg
-│   ├── README.md
-│   ├── src
-│   │   ├── App.css
-│   │   ├── App.jsx
-│   │   ├── assets
-│   │   │   └── react.svg
-│   │   ├── CommentCreate.jsx
-│   │   ├── CommentList.jsx
-│   │   ├── index.css
-│   │   ├── main.jsx
-│   │   ├── PostCreate.jsx
-│   │   └── PostList.jsx
-│   └── vite.config.js
-├── comments
-│   ├── Dockerfile
-│   ├── index.js
-│   ├── package-lock.json
-│   ├── package.json
-│   └── README.md
-├── event-bus
-│   ├── Dockerfile
-│   ├── index.js
-│   ├── package-lock.json
-│   └── package.json
-├── infra
-│   └── k8s
-│       ├── client-depl.yaml
-│       ├── comments-depl.yaml
-│       ├── event-bus-depl.yaml
-│       ├── ingress-srv.yaml
-│       ├── moderation-depl.yaml
-│       ├── posts-depl.yaml
-│       ├── posts-srv.yaml
-│       └── query-depl.yaml
-├── moderation
-│   ├── Dockerfile
-│   ├── index.js
-│   ├── package-lock.json
-│   └── package.json
-├── posts
-│   ├── Dockerfile
-│   ├── index.js
-│   ├── package-lock.json
-│   ├── package.json
-│   └── README.md
-├── query
-│   ├── Dockerfile
-│   ├── index.js
-│   ├── package-lock.json
-│   └── package.json
-└── README.md
-
-
----
-
 ## 🚀 What You’ll Learn
 
 - How to deploy a simple microservice (`posts`) on Kubernetes
@@ -95,8 +29,6 @@ Kubernetes Deployment
 Service (ClusterIP)
 
 Ingress & Ingress Controller
-
-DNS & Host Routing
 
 Docker image versioning
 
