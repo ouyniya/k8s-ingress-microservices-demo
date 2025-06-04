@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata: 
+  name: posts-srv
+spec:
+  type: NodePort            # ใช้ NodePort
+  selector:
+    app: posts              # เลือก Pod ที่มี label app=posts
+  ports:
+    - name: posts
+      protocol: TCP
+      port: 4000            # พอร์ตที่ Service ใช้ภายในคลัสเตอร์
+      targetPort: 4000      # พอร์ตภายใน container (Pod)
