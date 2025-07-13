@@ -37,6 +37,6 @@ app.get("/events", (req, res) => {
   res.send(events);
 });
 
-app.listen(4005, () => {
-  console.log("server is running on port 4005");
+app.listen(4005, '0.0.0.0', () => {
+  console.log('Listening on port 4005');
 });

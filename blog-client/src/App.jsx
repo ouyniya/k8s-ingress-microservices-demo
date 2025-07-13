@@ -9,7 +9,7 @@ function App() {
       <div>
         <h1>┊┊🌸 NysDev's Blog 🌸┊┊</h1>
         <br />
-        <h2>╰┈➤ Create a post</h2>
+        <h2>╰┈➤ Create a post!!</h2>
         <PostCreate />
         <br />
         <h2>Posts</h2>
